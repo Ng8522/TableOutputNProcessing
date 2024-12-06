@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table Display</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 20px;
+    }
+    
+    table {
+        width: 50%;
+        margin: 20px auto;
+        border-collapse: collapse;
+    }
+    
+    table th, table td {
+        border: 1px solid #000;
+        padding: 10px;
+    }
+    
+    h1 {
+        color: #333;
+    }
+    </style>
+    </head>
+    <body>
+        <h1>Table 1</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Index</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody id="table1">
+            </tbody>
+        </table>
+
+        <h1>Table 2</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody id="table2">
+            </tbody>
+        </table>
+
+        <script src="table_processing.js"></script>
+    </body>
+</html>
